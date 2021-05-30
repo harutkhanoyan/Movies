@@ -1,0 +1,31 @@
+.pagination_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.pagination_container a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  height: 40px;
+  width: 40px;
+  text-decoration: none;
+  transition: backgrund-color .2s;
+  border: 1px solid #ddd;
+}
+.pagination_container a.disabled {
+  opacity: 0.2;
+}
+.pagination_container a.active {
+  border: 1px solid #7cbddb;
+  background-color: blue;
+  color: white;
+}
+.pagination_container a:hover:not(.active) {
+  background-color: rgb(238, 238, 238);
+}

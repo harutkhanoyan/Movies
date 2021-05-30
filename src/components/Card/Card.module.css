@@ -1,0 +1,14 @@
+.card {
+  width: 279px;
+  height: 500px;
+  margin: 50px;
+  border: 1px solid black;
+  background-color:rgb(185, 185, 211);
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.card_img {
+  width: 279px;
+  height: 400px;
+}
